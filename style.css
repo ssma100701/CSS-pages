@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #0f3959;
+}
+
+ul {
+  position: absolute;
+  width: 800px;
+  left: 300px;
+  margin: 100px auto 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+ul li {
+  display: flex;
+  background: rgba(255, 255, 255, .1);
+  padding: 10px 20px;
+  color: #fff;
+  margin: 5px 0;
+  transition: .5s;
+}
+
+ul li:hover {
+  transform: scale(1.06);
+  background: #03a9f4;
+}
+
+ul li i {
+  color: yellow;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+a:link,
+a:visited {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+a:hover {
+  font-size: 18px;
+  color: #999999;
+  text-decoration: underline;
+}
